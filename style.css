@@ -1,0 +1,40 @@
+#game {
+    background-color: palegoldenrod;
+    height: 500px;
+    display: flex;
+}
+
+.tower {
+    border: 2px dashed red;
+    flex-grow: 1;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.disc {
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+#disc1 {
+    background-color: #ffff00;
+    width: 60%;
+}
+
+#disc2 {
+    background-color: #00ff00;
+    width: 70%;
+}
+
+#disc3 {
+    background-color: #0000ff;
+    width: 80%;
+}
+
+#disc4 {
+    background-color: #00ffff;
+    width: 90%;
+}
