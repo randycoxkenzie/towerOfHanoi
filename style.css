@@ -19,6 +19,10 @@
     border-radius: 30px;
 }
 
+#hand {
+    width: 33%;
+}
+
 #disc1 {
     background-color: #ffff00;
     width: 60%;

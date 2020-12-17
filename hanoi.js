@@ -16,7 +16,7 @@ const towerClick = function (evt) {
     //        handEl.append(topDisc)
     //    If no, the player must be trying to drop a disc.
     //        Is the disc in the handEl smaller than the topDisc in the tower?
-    //        (compare topDisc.dataset.size to handEl.firstElementChild.dataset.size)
+    //        (compare topDisc.clientWidth to handEl.firstElementChild.clientWidth)
     //            If yes, move the disc from handEl into clickedTower.
 
     if (isGameOver()) {
